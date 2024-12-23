@@ -2,7 +2,7 @@ import { Github, Twitter, Linkedin } from 'lucide-react';
 
 const SocialLinks = () => {
   return (
-    <div className="flex space-x-6">
+    <div className="flex justify-center space-x-6">
       <a
         href="https://github.com"
         target="_blank"

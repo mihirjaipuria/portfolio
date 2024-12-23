@@ -24,7 +24,7 @@ const Navbar = () => {
       isScrolled ? 'bg-[#1A1F2C]/80 backdrop-blur-lg' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-6 py-4">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-end items-center">
           <div className="space-x-8">
             <button onClick={() => scrollToSection('home')} className="nav-link">
               Home
