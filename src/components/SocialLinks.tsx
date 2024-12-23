@@ -4,7 +4,7 @@ const SocialLinks = () => {
   return (
     <div className="flex justify-center space-x-6">
       <a
-        href="https://github.com"
+        href="https://github.com/mihirjaipuria"
         target="_blank"
         rel="noopener noreferrer"
         className="social-icon"
@@ -12,7 +12,7 @@ const SocialLinks = () => {
         <Github size={24} />
       </a>
       <a
-        href="https://twitter.com"
+        href="https://x.com/mihir_jaipuria"
         target="_blank"
         rel="noopener noreferrer"
         className="social-icon"
@@ -20,7 +20,7 @@ const SocialLinks = () => {
         <Twitter size={24} />
       </a>
       <a
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/mihirjaipuria/"
         target="_blank"
         rel="noopener noreferrer"
         className="social-icon"

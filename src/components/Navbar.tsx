@@ -20,9 +20,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-[#1A1F2C]/80 backdrop-blur-lg' : 'bg-transparent'
-    }`}>
+    <nav
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-[#1A1F2C]/80 backdrop-blur-lg' : 'bg-transparent'
+      }`}
+    >
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-end items-center">
           <div className="space-x-8">
@@ -33,7 +35,7 @@ const Navbar = () => {
               Projects
             </button>
             <a
-              href="https://drive.google.com"
+              href="https://drive.google.com/file/d/1fHSEFCC9gz0R81rVHJ44VxDkRPA23DUO/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-link"
