@@ -17,7 +17,7 @@ const Index = () => {
               Hi, I'm <span className="text-purple-400">mihir</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              I'm an undergraduate pursuing a dual degree in Mathematics and Electronics at BITS Pilani. I'm passionate about AI and ML, always staying updated with the latest research. I love exploring where AI, Machine Learning, and Electronics collide. Always down for a chat about the latest breakthroughs, no matter how wild they get!
+              I'm an undergraduate student pursuing a dual degree in Mathematics and Electronics at BITS Pilani. I'm passionate about AI and ML, always staying updated with the latest research. I love exploring where AI, Machine Learning, and Electronics collide. Always down for a chat about the latest breakthroughs, no matter how wild they get!
             </p>
             <SocialLinks />
           </div>
@@ -54,9 +54,9 @@ const Index = () => {
             
             {/* Fourth Project Card */}
             <ProjectCard
-              title="ResNet50V2-Modified"
-              description="Modified architecture of ResNet50V2 with a 2-step training process."
-              githubUrl="https://github.com/mihirjaipuria/ResNet50V2-Modified"
+              title="Dysarthria Detection and Severity Classification from Speech Signals"
+              description="Machine Learning system that integrates modified ResNet50V2 architecture and Q-factor speech signal analysis."
+              githubUrl="https://github.com/mihirjaipuria/Dysarthria-Detection-and-Severity-Classification-from-Speech-Signals"
             />
           </div>
         </div>
